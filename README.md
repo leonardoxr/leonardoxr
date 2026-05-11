@@ -40,6 +40,7 @@ I have also worked on game-related systems, including backend APIs for support w
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [MCSR_Ranked_Companion](https://github.com/leonardoxr/MCSR_Ranked_Companion) | Public companion app for MCSR Ranked players, with player stats, match history, leaderboards, comparisons, live match views, playoffs, records, API validation, and desktop packaging. | TypeScript, Next.js, React, Tailwind CSS, TanStack Query, Zustand, Tauri |
 | [ip-camera-viewer](https://github.com/leonardoxr/ip-camera-viewer) | Native macOS IP camera viewer with discovery, RTSP bridging, PTZ controls, saved views, and casting support. | Swift, SwiftUI, RTSP, FFmpeg, ONVIF |
 | [iThinkQ](https://github.com/leonardoxr/iThinkQ) | Native macOS app for controlling LG ThinQ devices. | Swift, SwiftUI, macOS |
 
@@ -53,7 +54,6 @@ I also build tools around games and communities I enjoy. These projects are usef
 | [hytale-dashboard](https://github.com/leonardoxr/hytale-dashboard) | Real-time admin dashboard for Hytale game servers, built as a browser-based companion for server monitoring and management. | TypeScript, Next.js, React |
 | [jingle-e-counter-plugin](https://github.com/leonardoxr/jingle-e-counter-plugin) | Jingle plugin for Minecraft speedrunning that pairs a thin game window with a zoomed realtime entity counter, configurable capture settings, persistent options, and a hotkey-driven workflow. | Java, Gradle, Swing, JNA, Windows GDI/User32, Jingle plugin API |
 | [jingle-ez-nav-helper-plugin](https://github.com/leonardoxr/jingle-ez-nav-helper-plugin) | Jingle navigation helper that integrates with Ninjabrain Bot, showing stronghold direction, distance, coordinate tracking, dimension-aware conversion, and configurable API settings. | Java, Gradle, Swing, REST API integration, navigation math |
-| [MCSR_Ranked_Companion](https://github.com/leonardoxr/MCSR_Ranked_Companion) | Cross-platform companion app for MCSR Ranked players, with player stats, match history, leaderboards, comparisons, live match views, offline-first direction, and desktop packaging. | TypeScript, Next.js, React, Tailwind CSS, TanStack Query, Zustand, Tauri |
 
 ## Public Forks
 
