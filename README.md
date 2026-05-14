@@ -9,6 +9,8 @@
   ·
   <a href="https://github.com/leonardoxr/ip-camera-viewer">IP Camera Viewer</a>
   ·
+  <a href="https://github.com/leonardoxr/PhraseCue">PhraseCue</a>
+  ·
   <a href="https://github.com/leonardoxr/iThinkQ">iThinkQ</a>
   ·
   <a href="https://github.com/leonardoxr/MCSR_Ranked_Companion">MCSR Companion</a>
@@ -40,6 +42,7 @@ I have also worked on game-related systems, including backend APIs for support w
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [PhraseCue](https://github.com/leonardoxr/PhraseCue) | Local-first podcast search player for macOS, with podcast import, transcript indexing, timestamped search, playback from matching moments, transcription backend setup, and beta release packaging. | Swift, SwiftUI, AVFoundation, SQLite FTS5, GRDB, macOS |
 | [MCSR_Ranked_Companion](https://github.com/leonardoxr/MCSR_Ranked_Companion) | Public companion app for MCSR Ranked players, with player stats, match history, leaderboards, comparisons, live match views, playoffs, records, API validation, and desktop packaging. | TypeScript, Next.js, React, Tailwind CSS, TanStack Query, Zustand, Tauri |
 | [ip-camera-viewer](https://github.com/leonardoxr/ip-camera-viewer) | Native macOS IP camera viewer with discovery, RTSP bridging, PTZ controls, saved views, and casting support. | Swift, SwiftUI, RTSP, FFmpeg, ONVIF |
 | [iThinkQ](https://github.com/leonardoxr/iThinkQ) | Native macOS app for controlling LG ThinQ devices. | Swift, SwiftUI, macOS |
