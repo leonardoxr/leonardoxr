@@ -1,0 +1,46 @@
+name: Refresh repository catalog
+
+on:
+  schedule:
+    # Mondays 05:23 UTC — keeps the plugin/bundle catalog current.
+    - cron: '23 5 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-repos.mjs'
+      - '.github/workflows/update-repos.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Regenerate catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-repos.mjs
+
+      - name: Commit refreshed catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git add README.md
+            git commit -m "docs: refresh repository catalog"
+            git push
+          else
+            echo "Catalog already up to date"
+          fi
