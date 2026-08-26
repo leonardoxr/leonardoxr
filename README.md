@@ -106,6 +106,7 @@ _Auto-refreshed 2026-08-26 UTC from the GitHub API by [.github/workflows/update-
 
 
 
+
 ## Hobby and Community Projects
 
 I also build tools around games and communities I enjoy. These projects are useful portfolio pieces because they show practical Java plugin work, desktop app packaging, API integration, realtime UI, game-server tooling, and performance-focused engineering outside client work.
