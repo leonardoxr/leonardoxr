@@ -80,18 +80,18 @@ dsh plugin --profile <name> add dsh-all-in-one
 
 | Plugin | What it does | Language |
 | --- | --- | --- |
-| [dsh-harness-updater](https://github.com/leonardoxr/dsh-harness-updater) | Claude Code / Codex CLI update detection, prompting, and one-click channel updates for DeepSeek Harness | TypeScript |
+| [dsh-claude-usage](https://github.com/leonardoxr/dsh-claude-usage) | Anthropic Claude plan usage indicator for DeepSeek Harness | TypeScript |
+| [dsh-codex-usage](https://github.com/leonardoxr/dsh-codex-usage) | OpenAI Codex plan usage indicator for DeepSeek Harness | TypeScript |
+| [dsh-image-preview](https://github.com/leonardoxr/dsh-image-preview) | Inline read_image previews for DeepSeek Harness | TypeScript |
 | [dsh-companion](https://github.com/leonardoxr/dsh-companion) | Read-only workspace and session JSON API plugin for DeepSeek Harness native clients. | JavaScript |
 | [dsh-native](https://github.com/leonardoxr/dsh-native) | Native desktop and iOS shell for trusted HTTPS web apps, with saved servers and first-class DeepSeek Harness support. | JavaScript |
-| [dsh-codex-usage](https://github.com/leonardoxr/dsh-codex-usage) | OpenAI Codex plan usage indicator for DeepSeek Harness | TypeScript |
-| [dsh-claude-usage](https://github.com/leonardoxr/dsh-claude-usage) | Anthropic Claude plan usage indicator for DeepSeek Harness | TypeScript |
-| [dsh-image-preview](https://github.com/leonardoxr/dsh-image-preview) | Inline read_image previews for DeepSeek Harness | TypeScript |
+| [dsh-auto-chat-titles](https://github.com/leonardoxr/dsh-auto-chat-titles) | Semantic, configurable chat titles for DeepSeek Harness | TypeScript |
+| [dsh-harness-updater](https://github.com/leonardoxr/dsh-harness-updater) | Claude Code / Codex CLI update detection, prompting, and one-click channel updates for DeepSeek Harness | TypeScript |
 | [dsh-workspace-git](https://github.com/leonardoxr/dsh-workspace-git) | DeepSeek Harness plugin for cloning Git repositories as workspaces | TypeScript |
 | [dsh-status-bar-config](https://github.com/leonardoxr/dsh-status-bar-config) | Configurable conversation statistics row for DeepSeek Harness | TypeScript |
 | [dsh-routed-subagent](https://github.com/leonardoxr/dsh-routed-subagent) | Complexity-routed subagent delegation for DeepSeek Harness: the model picks the runtime tier per task. | TypeScript |
 | [dsh-plugin-manager](https://github.com/leonardoxr/dsh-plugin-manager) | Safe loopback-only Web UI for managing DeepSeek Harness profile plugins | TypeScript |
 | [dsh-coding-tools](https://github.com/leonardoxr/dsh-coding-tools) | Secure bounded coding tools for DeepSeek Harness | TypeScript |
-| [dsh-auto-chat-titles](https://github.com/leonardoxr/dsh-auto-chat-titles) | Semantic, configurable chat titles for DeepSeek Harness | TypeScript |
 
 ### 🍍 Related forks
 
@@ -100,9 +100,10 @@ dsh plugin --profile <name> add dsh-all-in-one
 
 ---
 
-_Auto-refreshed 2026-08-26 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
+_Auto-refreshed 2026-08-31 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
 
 <!-- repo-catalog:end -->
+
 
 
 
