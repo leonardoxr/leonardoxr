@@ -100,9 +100,10 @@ dsh plugin --profile <name> add dsh-all-in-one
 
 ---
 
-_Auto-refreshed 2026-09-07 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
+_Auto-refreshed 2026-09-14 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
 
 <!-- repo-catalog:end -->
+
 
 
 
