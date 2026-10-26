@@ -80,9 +80,9 @@ dsh plugin --profile <name> add dsh-all-in-one
 
 | Plugin | What it does | Language |
 | --- | --- | --- |
+| [dsh-native](https://github.com/leonardoxr/dsh-native) | Native desktop and iOS shell for trusted HTTPS web apps, with saved servers and first-class DeepSeek Harness support. | JavaScript |
 | [dsh-companion](https://github.com/leonardoxr/dsh-companion) | Read-only workspace and session JSON API plugin for DeepSeek Harness native clients. | JavaScript |
 | [dsh-auto-chat-titles](https://github.com/leonardoxr/dsh-auto-chat-titles) | Semantic, configurable chat titles for DeepSeek Harness | TypeScript |
-| [dsh-native](https://github.com/leonardoxr/dsh-native) | Native desktop and iOS shell for trusted HTTPS web apps, with saved servers and first-class DeepSeek Harness support. | JavaScript |
 | [dsh-claude-usage](https://github.com/leonardoxr/dsh-claude-usage) | Anthropic Claude plan usage indicator for DeepSeek Harness | TypeScript |
 | [dsh-codex-usage](https://github.com/leonardoxr/dsh-codex-usage) | OpenAI Codex plan usage indicator for DeepSeek Harness | TypeScript |
 | [dsh-image-preview](https://github.com/leonardoxr/dsh-image-preview) | Inline read_image previews for DeepSeek Harness | TypeScript |
@@ -100,9 +100,10 @@ dsh plugin --profile <name> add dsh-all-in-one
 
 ---
 
-_Auto-refreshed 2026-10-19 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
+_Auto-refreshed 2026-10-26 UTC from the GitHub API by [.github/workflows/update-repos.yml](https://github.com/leonardoxr/leonardoxr/blob/main/.github/workflows/update-repos.yml)._
 
 <!-- repo-catalog:end -->
+
 
 
 
